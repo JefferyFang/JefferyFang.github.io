@@ -10,7 +10,7 @@
 
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Yuheng Fang — MS Computer Science">
-<meta property="og:description" content=""computer science working on AI agents, quantization, and neural networks.>
+<meta property="og:description" content="Master's student in computer science working on AI agents, quantization, and neural networks.">
 <meta property="og:url" content="https://fang-dev.com/">
 <meta property="og:image" content="https://fang-dev.com/assets/photo.jpg">
 <meta name="twitter:card" content="summary">
@@ -88,7 +88,7 @@ a { color: var(--accent); }
 
 .shell {
   display: grid;
-  grid-template-columns: minmax(230px, 285px) minmax(0, 1fr);
+  grid-template-columns: minmax(240px, 305px) minmax(0, 1fr);
   gap: clamp(2.5rem, 5vw, 5.5rem);
   max-width: 1160px;
   margin: 0 auto;
@@ -100,6 +100,7 @@ a { color: var(--accent); }
 
 .rail {
   position: sticky;
+  overflow-x: hidden;
   top: clamp(2.5rem, 6vw, 5rem);
   align-self: start;
   max-height: calc(100vh - 7rem);
@@ -130,9 +131,13 @@ a { color: var(--accent); }
 
 .name {
   font-family: var(--serif);
-  font-size: clamp(1.95rem, 3.4vw, 2.45rem);
+  font-size: clamp(1.5rem, 2.6vw, 1.95rem);
   font-weight: 600;
-  line-height: 1.08;
+  line-height: 1.14;
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: break-word;
+  text-wrap: balance;
   letter-spacing: -.021em;
   margin: 0 0 .7rem;
 }
@@ -446,11 +451,11 @@ details.cite pre {
   <aside class="rail">
 
     <div class="avatar">
-      <span class="avatar-initials" aria-hidden="true">YF
+      <span class="avatar-initials" aria-hidden="true">YF</span>
       <img src="assets/headshot.jpg" alt="Yuheng Fang" onerror="this.remove()">
     </div>
 
-    <h1 class="name">Yuheng(Jeffery)&nbsp;Fang</h1>
+    <h1 class="name">Yuheng (Jeffery) Fang</h1>
     <p class="role">
       MS Computer Science, expected May&nbsp;2027<br>
       <span class="org">Binghamton University</span><br>
@@ -541,7 +546,7 @@ details.cite pre {
     </section>
 
     <footer class="foot">
-      Last updated September 2026;
+      Last updated November 2026.
       <a href="https://github.com/jefferyfang/jefferyfang.github.io">source on GitHub</a>.
     </footer>
 
